@@ -1,0 +1,48 @@
+name: blind_assistant_app
+description: A mobile app for blind users with AI-powered face detection features
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Camera & Image
+  camera: ^0.11.0
+  image_picker: ^1.1.2
+  image: ^4.1.7
+
+  # HTTP & API
+  http: ^1.2.0
+  dio: ^5.4.3
+
+  # Text-to-Speech
+  flutter_tts: ^4.0.2
+
+  # Speech Recognition
+  speech_to_text: ^7.0.0
+
+  # UI
+  cupertino_icons: ^1.0.6
+
+  # Permissions
+  permission_handler: ^11.3.1
+
+  # State Management
+  provider: ^6.1.2
+
+  # Storage
+  shared_preferences: ^2.3.2
+  path_provider: ^2.1.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+
