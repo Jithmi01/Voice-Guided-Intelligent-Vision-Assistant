@@ -7,13 +7,14 @@ The system identifies people as known or unknown, estimates their distance and p
 
 The entire application is controlled using voice commands, enabling hands-free and accessible usage.
 
+---
 ## 🎯 Key Objectives
 
 - Assist visually impaired users using AI and voice guidance
 - Identify people as known or unknown
 - Provide facial attributes and identity-related information via speech
 - Enable full interaction through voice commands
-
+---
 ## ✨ Core Features
 
 ### 👤 Person Identification
@@ -50,7 +51,7 @@ Converts detection and analysis results into clear voice output
 
 Reduces dependency on visual interfaces
 
-
+---
 ## 🏗️ System Architecture
 
 - Camera captures real-time video frames
@@ -60,7 +61,7 @@ Reduces dependency on visual interfaces
 - Distance and position estimation
 - Text-to-speech conversion
 - Voice-based user interaction
-
+---
 ## 📂 Datasets Used
 
 ### Unknown Person Facial Attribute Dataset
@@ -77,8 +78,10 @@ Reduces dependency on visual interfaces
 - Used for facial attribute recognition
 - Includes attributes such as glasses, beard, smile, and hair type
 
-**Trained Models** [models](models)
+---
+## Trained Models With Accuracy [models](models)
 
+---
 ## 🧪 Technologies Used
 
 - Computer Vision – Face detection and tracking
@@ -87,7 +90,7 @@ Reduces dependency on visual interfaces
 - Text-to-Speech (TTS) – Audio feedback
 - OpenCV
 - Python / JavaScript (implementation dependent)
-
+---
 ### 📊 Evaluation Metrics
 
 - Age and gender prediction accuracy
